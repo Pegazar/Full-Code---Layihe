@@ -1,0 +1,440 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+/* --- Header Start --- */
+
+.logo {
+  margin-top: 21px;
+}
+
+.margin-top {
+  margin-top: 97px;
+}
+
+.menu {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.menu li {
+  list-style: none;
+  margin-right: 30px;
+  color: #000;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+}
+
+.menu li img {
+  padding-right: 8px;
+}
+
+.header-info h1 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 101.38%;
+  color: #000;
+  margin: 29px 0px 24px;
+}
+
+.header-info p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.img-box {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.text-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 86px;
+}
+
+.info-box {
+  width: 483.63px;
+  border-radius: 5px;
+  background: #1e4681;
+  padding: 19px 26px;
+}
+
+.info-box p {
+  font-family: "Roboto Slab";
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 130%;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+
+.info-box .writer {
+  text-align: right;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #ffffff;
+}
+
+/* --- Header End --- */
+
+/* --- Section One Start --- */
+
+.mt-two {
+  margin-top: 173px;
+}
+
+.section-one-info h2 {
+  font-family: "Roboto Slab";
+  margin: 0px 0px 42px;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 101.38%;
+  color: #000000;
+}
+
+.section-one-info p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.img-box-two {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 135px;
+}
+
+.mt-three {
+  margin-top: 75px;
+}
+
+.text-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.text-info div {
+  width: 150px;
+}
+
+.text-info h3 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 130%;
+  color: #000000;
+  margin: 0px 0px 15px;
+}
+
+.text-info p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #000000;
+}
+
+/* --- Section One End --- */
+
+/* --- Section Two Start --- */
+
+.section-two h2 {
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 101.38%;
+  color: #000000;
+  margin: 162px 0px 116px;
+}
+.sect-info {
+  width: 271px;
+}
+
+.sect-info h3 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 130%;
+  color: #1e4681;
+  margin: 0px 0px 15px;
+}
+.sect-info p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #000000;
+}
+
+/* --- Section Two End --- */
+
+/* --- Section Three Start --- */
+
+.section-three-info h2 {
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 101.38%;
+  color: #000000;
+  margin: 217px 0px 49px;
+}
+
+.section-three-info ul {
+  padding: 0;
+  width: 662px;
+}
+
+.section-three-info ul li {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #000000;
+  margin-left: 20px;
+}
+
+/* --- Section Three End --- */
+
+/* --- Section Four Start --- */
+
+.secfour-title h2 {
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 101.38%;
+  color: #000000;
+  margin: 226px 0px 121px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 28px;
+}
+
+.card-box {
+  background: #ffffff;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  width: 380px;
+  height: 336px;
+}
+.card-box img {
+  width: 380px;
+  height: 168px;
+}
+
+.box-info {
+  padding: 0px 20px 20px;
+}
+
+.box-info h3 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  color: #000000;
+  padding: 11px 0px 32px;
+}
+
+.card-box:last-child .box-info h3 {
+  padding: 11px 0px 0px;
+  line-height: 120%;
+}
+
+.box-info p {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 130%;
+  color: #000000;
+}
+
+/* --- Section Four End --- */
+
+/* --- Section Five Start --- */
+
+.section-five {
+  margin-top: 121px;
+  background: #efefef;
+  padding-bottom: 111px;
+}
+
+.sectfive-title h2 {
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 101.38%;
+  color: #000000;
+  padding: 91px 0px 58px;
+}
+
+.user-box {
+  width: 791px;
+  height: 451px;
+  border-radius: 30px;
+  background-color: #fff;
+}
+
+.user-box p {
+  padding: 40px 45px 0px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.user-info {
+  display: flex;
+  padding: 34px 0px 29px 30px;
+}
+
+.user-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 30px;
+}
+
+.user-name h3 {
+  padding-bottom: 23px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 101.38%;
+  color: #000000;
+}
+
+/* --- Section Five End --- */
+
+/* --- Section Six Start --- */
+
+.section-six {
+  background: #9dc9c8;
+  padding: 179px 0px 185px;
+}
+
+.six-title h2 {
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 101.38%;
+  color: #000000;
+  padding-bottom: 54px;
+}
+
+.six-info p:first-child {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 101.38%;
+  color: #000000;
+  padding-bottom: 5px;
+}
+
+.six-info span {
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 101.38%;
+  color: #000000;
+}
+
+.six-box {
+  display: flex;
+  padding-top: 61px;
+}
+
+.one,
+.two {
+  width: 294px;
+}
+
+.one h4,
+.two h4 {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 101.38%;
+  color: #000000;
+  margin: 0px 0px 15px;
+}
+
+.one p,
+.two p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 101.38%;
+  color: #000000;
+}
+
+.one {
+  margin-right: 70px;
+}
+
+/* --- Section Six End --- */
+
+/* --- Footer Start --- */
+
+.footer {
+  background: #000000;
+  padding: 50px 0px 42px;
+}
+
+.footer-area {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social {
+  display: flex;
+  padding: 30px 0px 0px;
+  gap: 25px;
+}
+
+.phone {
+  padding: 0px 0px 20px;
+}
+
+.phone,
+.email {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.phone p,
+.email p {
+  color: #fff;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 101.38%;
+}
+
+.last-info p {
+  padding-top: 146px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 101.38%;
+  color: #ffffff;
+}
+
+/* --- Footer End --- */
